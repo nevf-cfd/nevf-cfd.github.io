@@ -6,7 +6,7 @@
         content="A short starter to build website for your paper.">
   <meta name="keywords" content="Paper, website">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Paper-oriented Website Building</title>
+  <title>NeVF: Representing CFD simulations as neural flow volume fields for efficient compression, reconstruction, and analysis</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -181,7 +181,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            You can add the abstract of your paper here!
+            Computational Fluid Dynamics (CFD) simulations of civil engineering aerodynamics, which are commonly characterized by complex three-dimensional flow fields, generate massive spatiotemporal datasets, creating significant storage and computational bottlenecks that heavily constrain iterative engineering workflows. To overcome these challenges, this paper presents a novel two-stage compression framework that models three-dimensional flow field data using Neural Flow Volume Fields (NeVF). The first stage employs a distance field-biased flow importance sampling (3D BiFIS) strategy to reduce data dimensionality intelligently; this approach selectively extracts key near-wall flow information, guided by surface proximity to construct a “relaxed” image volume. Subsequently, a deep network, leveraging positional encodings and disentangled spatio-temporal attention mechanisms, highly compresses this volumetric representation. The effectiveness of the resulting flow field representation is evaluated using a comprehensive 3D Large-Eddy Simulation (LES) dataset of a bluff single-box bridge deck, characterized by complex, uncorrelated spanwise flow features. Results demonstrate high data compression rates of 7000:1 to 30000:1 while preserving high-fidelity near-body aerodynamic flow features, enabling accurate estimation of wind-induced forces. Ultimately, our methodology streamlines efficient storage, reconstruction, and rapid analysis of exascale CFD datasets, unlocking potential new applications for deep learning emulation and data-intensive tasks, such as, uncertainty quantification and flow-driven aero-structural optimization.
           </p>
         </div>
       </div>
